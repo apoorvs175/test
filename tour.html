@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Tour - Clanza Inn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <div class="logo">Clanza Inn</div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="rooms.html">Rooms</a>
+                <a href="amenities.html">Amenities</a>
+                <a href="contact.html">Contact</a>
+                <a href="book.html" class="btn primary">Book Now</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Take a Tour</h1>
+        <p>Experience Clanza Inn before you arrive</p>
+    </section>
+
+    <section class="virtual-tour">
+        <div class="tour-container">
+            <div class="tour-section">
+                <h2>Common Areas</h2>
+                <div class="tour-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Lobby">
+                        <div class="gallery-caption">
+                            <h3>Lobby</h3>
+                            <p>Our welcoming lobby area with 24/7 reception</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/279648/pexels-photo-279648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Kitchen">
+                        <div class="gallery-caption">
+                            <h3>Kitchen</h3>
+                            <p>Fully equipped shared kitchen</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/261105/pexels-photo-261105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Lounge">
+                        <div class="gallery-caption">
+                            <h3>Lounge</h3>
+                            <p>Comfortable social space</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-section">
+                <h2>Rooms</h2>
+                <div class="tour-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Single Room">
+                        <div class="gallery-caption">
+                            <h3>Single Room</h3>
+                            <p>Perfect for solo travelers</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Double Room">
+                        <div class="gallery-caption">
+                            <h3>Double Room</h3>
+                            <p>Comfortable space for two</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dormitory">
+                        <div class="gallery-caption">
+                            <h3>Dormitory</h3>
+                            <p>Social and affordable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-section">
+                <h2>Outdoor Spaces</h2>
+                <div class="tour-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Garden">
+                        <div class="gallery-caption">
+                            <h3>Garden</h3>
+                            <p>Peaceful outdoor relaxation area</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/261041/pexels-photo-261041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Terrace">
+                        <div class="gallery-caption">
+                            <h3>Terrace</h3>
+                            <p>Rooftop terrace with city views</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="BBQ Area">
+                        <div class="gallery-caption">
+                            <h3>BBQ Area</h3>
+                            <p>Perfect for social gatherings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tour-booking">
+        <div class="tour-booking-container">
+            <h2>Book a Guided Tour</h2>
+            <p>Want to see the hostel in person? Schedule a guided tour with our staff!</p>
+            <form id="tourForm" class="tour-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tourDate">Preferred Date</label>
+                        <input type="date" id="tourDate" name="tourDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tourTime">Preferred Time</label>
+                        <select id="tourTime" name="tourTime" required>
+                            <option value="">Select a time</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="tourName">Your Name</label>
+                        <input type="text" id="tourName" name="tourName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tourEmail">Your Email</label>
+                        <input type="email" id="tourEmail" name="tourEmail" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="tourNotes">Additional Notes</label>
+                    <textarea id="tourNotes" name="tourNotes" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn primary full-width">Schedule Tour</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Clanza Inn</h3>
+                <p>Your perfect home away from home. Experience comfort and community in our modern hostel.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="cancellation.html">Cancellation Policy</a></li>
+                    <li><a href="rules.html">House Rules</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <div class="contact-info">
+                    <p>📍 123 Hostel Street, City, Country</p>
+                    <p>📞 +1 234 567 890</p>
+                    <p>📧 info@clanzainn.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Clanza Inn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

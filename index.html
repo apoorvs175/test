@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clanza Inn - Your Home Away From Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Clanza Inn</div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="rooms.html">Rooms</a>
+                <a href="amenities.html">Amenities</a>
+                <a href="contact.html">Contact</a>
+                <a href="book.html" class="btn primary">Book Now</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Clanza Inn</h1>
+            <p>Your Home Away From Home</p>
+            <div class="hero-buttons">
+                <a href="book.html" class="btn primary">Book Now</a>
+                <a href="tour.html" class="btn secondary">Take a Tour</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3>Safe & Secure</h3>
+                <p>24/7 security and CCTV surveillance for your peace of mind</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📶</div>
+                <h3>High-Speed WiFi</h3>
+                <p>Stay connected with our premium internet service</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⏰</div>
+                <h3>24/7 Support</h3>
+                <p>Our friendly staff is always here to assist you</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-rooms">
+        <h2>Featured Rooms</h2>
+        <div class="rooms-grid">
+            <div class="room-card">
+                <div class="room-image" style="background-image: url('https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"></div>
+                <div class="room-content">
+                    <div class="room-header">
+                        <h3>Single Room</h3>
+                        <div class="price">$49<span>/night</span></div>
+                    </div>
+                    <ul class="room-features">
+                        <li>Single Bed</li>
+                        <li>Private Bathroom</li>
+                        <li>Work Desk</li>
+                    </ul>
+                    <a href="book.html?room=single" class="btn primary full-width">Book Now</a>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-image" style="background-image: url('https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"></div>
+                <div class="room-content">
+                    <div class="room-header">
+                        <h3>Double Room</h3>
+                        <div class="price">$79<span>/night</span></div>
+                    </div>
+                    <ul class="room-features">
+                        <li>Queen Bed</li>
+                        <li>Private Bathroom</li>
+                        <li>Balcony</li>
+                    </ul>
+                    <a href="book.html?room=double" class="btn primary full-width">Book Now</a>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-image" style="background-image: url('https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"></div>
+                <div class="room-content">
+                    <div class="room-header">
+                        <h3>Dormitory</h3>
+                        <div class="price">$29<span>/night</span></div>
+                    </div>
+                    <ul class="room-features">
+                        <li>Bunk Bed</li>
+                        <li>Shared Bathroom</li>
+                        <li>Lockers</li>
+                    </ul>
+                    <a href="book.html?room=dorm" class="btn primary full-width">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-rooms">
+            <a href="rooms.html" class="btn secondary">View All Rooms</a>
+        </div>
+    </section>
+
+    <section class="amenities-preview">
+        <h2>Our Amenities</h2>
+        <div class="amenities-grid">
+            <div class="amenity-card">
+                <div class="amenity-icon">📶</div>
+                <h3>Free Wi-Fi</h3>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon">☕</div>
+                <h3>Coffee Bar</h3>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon">🍳</div>
+                <h3>Kitchen</h3>
+            </div>
+            <div class="amenity-card">
+                <div class="amenity-icon">👥</div>
+                <h3>Common Room</h3>
+            </div>
+        </div>
+        <div class="view-all-amenities">
+            <a href="amenities.html" class="btn secondary">View All Amenities</a>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonials-slider" id="testimonials">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Amazing hostel with great amenities and friendly staff. Will definitely come back!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Sarah Johnson</div>
+                        <div class="author-location">United States</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Clean, comfortable, and perfectly located. The common areas are great for meeting new people."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Marco Silva</div>
+                        <div class="author-location">Brazil</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for exclusive offers and updates</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Clanza Inn</h3>
+                <p>Your perfect home away from home. Experience comfort and community in our modern hostel.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="book.html">Book Now</a></li>
+                    <li><a href="tour.html">Take a Tour</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="cancellation.html">Cancellation Policy</a></li>
+                    <li><a href="rules.html">House Rules</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <div class="contact-info">
+                    <p>📍 123 Hostel Street, City, Country</p>
+                    <p>📞 +1 234 567 890</p>
+                    <p>📧 info@clanzainn.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Clanza Inn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
